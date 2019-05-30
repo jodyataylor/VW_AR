@@ -12,11 +12,11 @@ newmtl _harmonica_quads_main
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.7470 0.7470 0.7470
 	Ke 0.0000 0.0000 0.0000
-	map_Ka tex\harmonica_diffuse.jpg
-	map_Kd tex\harmonica_diffuse.jpg
-	map_Ks tex\harmonica_specular.jpg
-	map_bump -bm 0.3000 tex\harmonica_normal.jpg
-	bump -bm 0.3000 tex\harmonica_normal.jpg
+	map_Ka harmonica_diffuse.jpg
+	map_Kd harmonica_diffuse.jpg
+	map_Ks harmonica_specular.jpg
+	map_bump -bm 0.3000 harmonica_normal.jpg
+	bump -bm 0.3000 harmonica_normal.jpg
 
 newmtl _harmonica_quads_plastic
 	Ns 19.0000
@@ -29,8 +29,8 @@ newmtl _harmonica_quads_plastic
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.4050 0.4050 0.4050
 	Ke 0.0000 0.0000 0.0000
-	map_Ka tex\harmonica_diffuse.jpg
-	map_Kd tex\harmonica_diffuse.jpg
-	map_Ks tex\harmonica_specular.jpg
-	map_bump -bm 0.3000 tex\harmonica_normal.jpg
-	bump -bm 0.3000 tex\harmonica_normal.jpg
+	map_Ka harmonica_diffuse.jpg
+	map_Kd harmonica_diffuse.jpg
+	map_Ks harmonica_specular.jpg
+	map_bump -bm 0.3000 harmonica_normal.jpg
+	bump -bm 0.3000 harmonica_normal.jpg
