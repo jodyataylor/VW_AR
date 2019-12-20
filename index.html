@@ -26,6 +26,8 @@
 		<img id="sky" src="assets/beachsky.jpg">
 		
 		<img id="wood" src="assets/WoodTex.png">
+		 
+		  <a-asset-item id="shark" src="assets/SwimmingShark.glb"></a-asset-item>
 		
 </a-assets>	
 		
@@ -59,10 +61,7 @@
 		
 <a-marker type='pattern' url='build/ClownfishMarker.patt'>		
 		
-
-
-  <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
-  <a-gltf-model src="assets/SwimmingShark.glb"></a-gltf-model>
+  <a-entity gltf-model="#shark"></a-entity>
 
 	</a-marker>
 
