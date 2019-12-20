@@ -29,11 +29,21 @@
 </a-assets>	
 		
 
-		
-	<a-plane src="#haven" rotation="-90 0 0" position="0 0 0" width="2.5" height="1.5"  repeat="1 1"></a-plane>	
+
+   
+		    <a-assets>
+    <!-- No loop. -->
+    <video id="haven" src="assets/HAVEN_SM.mp4" autoplay="true" loop="true">
+  </a-assets>
+		   
+
+		      
+	<a-plane src="#video" rotation="-90 0 0" position="0 0 0" width="2.5" height="1.5"  repeat="1 1"></a-plane>	
 		
 
-	<a-marker-camera type='pattern' url='build/Haven_marker.patt'></a-marker-camera>
+	<a-marker-camera type='pattern' url='assets/Haven_marker.patt'></a-marker-camera>
+		
+
 		
 
 		
